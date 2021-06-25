@@ -1,7 +1,7 @@
 <?php
 
 use App\Http\Controllers\control_authors;
-use App\Http\Controllers\Control_Home;
+use App\Http\Controllers\Control_home;
 use App\Http\Controllers\control_news;
 use App\Http\Controllers\tolController;
 use Illuminate\Support\Facades\Route;

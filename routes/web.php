@@ -1,7 +1,7 @@
 <?php
 
 use App\Http\Controllers\control_authors;
-use App\Http\Controllers\Control_Home;
+use App\Http\Controllers\Control_home;
 use App\Http\Controllers\control_news;
 use App\Http\Controllers\tolController;
 use Illuminate\Support\Facades\Route;
@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::get('/', [Control_Home::class, 'index']);
+Route::get('/', [Control_home::class, 'index']);
 
 route::get('tol', [tolController::class, 'index']);
 

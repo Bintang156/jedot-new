@@ -4,7 +4,6 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\authors;
-use App\Models\news;
 use Illuminate\Support\Facades\Auth;
 use PharIo\Manifest\Author;
 
@@ -17,8 +16,7 @@ class Control_Home extends Controller
      */
     public function index()
     {
-        $berita = news::all();
-        return view('home', compact('berita'));
+        return view('home');
     }
 
     /**

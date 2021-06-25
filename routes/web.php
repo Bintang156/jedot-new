@@ -28,9 +28,6 @@ Route::get('/hapus/{id}', [control_authors::class, 'destroy']);
 Route::get('/edit/{id}', [control_authors::class, 'edit']);
 Route::get('/update/{id}', [control_authors::class, 'update']);
 
-Route::get('/news', [control_news::class, 'index']);
-Route::resource('news', control_news::class);
-Route::get('/gambar/news/{image}', [control_news::class, 'load_image']);
-Route::get('/hapus/news/{id}', [control_news::class, 'destroy']);
+
 
 
